@@ -4,6 +4,7 @@ Esses desafios são para capacitação e aprendizagem.
 
 ## Desafios:
 1. Next Level Week
-2. ?
+2. Golden Gate
 3. ?
 
+![Treinando](https://i.ytimg.com/vi/ntQf_zPXuzY/maxresdefault.jpg)
