@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Cadastro|Golden Gate Tecnologia</title>
+
+        <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <img src="logo.png" alt="simbolo"/>
+        <h2>Cadastro</h2>
+        <p>
+            <div>
+        <form action="cadastro.php" method="POST" autocomplete="on">
+            <p>
+            <label for="nome">Nome</label>
+            <p>
+            <input type="text" name="nome" required size="20" maxlength="60" autocomplete="family-name" placeholder="Insere seu nome..." autofocus>
+            <p>
+
+            <label for="email">E-mail</label>
+            <p>
+            <input type="email" name="email" required size="20" maxlength="60" autocomplete="email" placeholder="Insere seu email">
+            <p>
+
+            <p>
+            <label for="user">Usuário</label>
+            <p>
+            <input type="text" name="user" required size="20" maxlength="60" autocomplete="given-name" placeholder="Coloque um apelido">
+            <p>
+
+            <p>
+            <label for="senha">Senha</label>
+            <p>
+            <input type="password" name="senha" required size="20" maxlength="60" placeholder="Coloque uma senha forte">
+            <p>
+
+            <p>
+            <input id="mandar" type="submit" value="Cadastrar" name="submeter">
+
+        </form>
+        </div>
+    </body>
+</html>

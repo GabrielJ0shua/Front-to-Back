@@ -1,0 +1,59 @@
+body {
+    background: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    justify-items: center;
+    align-items: center;
+}
+
+h1 {
+    color:red;
+    font-size: 450%;
+}
+
+h2 {
+    color:red;
+    font-size: 250%;
+}
+
+div form {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 100%;
+    
+}
+
+div form input{
+    border-radius: 0.4rem;
+    margin: 0;
+    width: 10rem;
+    height: 1%;
+}
+
+#mandar,#conf{
+    border: 0;
+    border-radius: 0.8rem;
+    background-color: #ff2401;
+    width: 10rem;
+    height: 2rem;
+    font-size: 1em;
+
+}
+
+label {
+    color:red;
+    font-size: 100%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:20%;
+    height:30%;
+}
+a {
+    text-decoration: none;
+}

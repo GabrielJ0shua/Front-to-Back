@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Confirmação|Golden Gate Tecnologia</title>
+
+        <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <img src="logo.png" alt="simbolo"/>
+
+        <h1>Confirmar Cadastro</h1>
+
+        <div>
+        <form action="confirmar.php" method="POST" autocomplete="on">
+            <p>
+            <label for="user">Usuário</label>
+            <p>
+            <input type="text" name="user" required size="20" maxlength="60" placeholder="Coloque seu usuario" autofocus>
+            <p>
+
+            <p>
+            <label for="cod">Código de Verificação</label>
+            <p>
+            <input type="text" name="cod" required size="20" maxlength="6" placeholder="Agora seu código do email">
+            <p>
+
+            <p>
+            <input id="conf" type="submit" value="Confirmar" name="cad">
+        </form>
+        </div>
+
+    </body>
+</html>
