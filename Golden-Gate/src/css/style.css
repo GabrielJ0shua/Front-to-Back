@@ -17,15 +17,11 @@ h2 {
     font-size: 250%;
 }
 
-div form {
+#formulario {
     margin: 0;
     margin-left: auto;
     margin-right: auto;
     font-size: 100%;
-    
-}
-
-div form input{
     border-radius: 0.4rem;
     margin: 0;
     width: 10rem;
