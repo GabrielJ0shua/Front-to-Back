@@ -6,33 +6,31 @@
         <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
         <title>Login|Golden Gate Tecnologia</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel"style" href="css/style.css">
     </head>
     <body>
         <img src="img/logo.png" class="rounded mx-auto d-block" width="20%" height="30%" alt="simbolo">
         <div class="d-flex justify-content-center">
-        <div class="container">
-        <blockquote class="blockquote text-center">
-        <h1>Bem Vindo :)</h1>
-        </blockquote>
-        <div class="form-group">
-        <form class="formulario" action="logar.php" method="POST" autocomplete="on">
-            <label for="user">Usuário</label>
-            <p>
-            <input type="text" name="user" required size="20" maxlength="60" autocomplete="given-name" placeholder="Coloque o Apelido" autofocus>
-            <p>
-
-            <label for="senha">Senha</label>
-            <p>
-            <input type="password" name="senha" required size="20" maxlength="60" placeholder="Agora sua senha">
-            <p>
-            <p>
-            <button type="button" class="btn btn-danger">Entrar</button>
-
-            <h3>Não é cadastradro? <a href="index(cadastro).html">Registra-se</a> </h3>
-        </form>
-        </div> 
-        </div> 
+            <div class="container">
+                <blockquote class="blockquote text-center">
+                    <h1>Bem Vindo :)</h1>
+                </blockquote>
+                <div>
+                    <form action="logar.php" method="POST" autocomplete="on">
+                        <label for="user">Usuário</label>
+                        <p>
+                        <input type="text" name="user" required size="20" maxlength="60" autocomplete="given-name" placeholder="Coloque o Apelido" autofocus>
+                        <p>
+                        <label for="senha">Senha</label>
+                        <p>
+                        <input type="password" name="senha" required size="20" maxlength="60" placeholder="Agora sua senha">
+                        <p>
+                        <button type="button" class="btn btn-danger">Entrar</button>
+                    </form>
+                </div> 
+                <blockquote class="blockquote text-center">
+                    <h3>Não é cadastradro? <a href="index(cadastro).html">Registra-se</a></h3>
+                </blockquote>
+            </div> 
         </div>      
         <!-- Scripts -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

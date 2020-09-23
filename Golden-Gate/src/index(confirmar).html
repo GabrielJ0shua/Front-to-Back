@@ -10,27 +10,25 @@
     <body>
         <img src="img/logo.png" class="rounded mx-auto d-block" width="20%" height="30%" alt="simbolo">
         <div class="d-flex justify-content-center">
-        <div class="container">
-        <blockquote class="blockquote text-center">
-        <h1>Confirmar Cadastro</h1>
-        </blockquote>
-        <div class="form-group">
-        <form action="confirmar.php" method="POST" autocomplete="on">
-            <p>
-            <label for="user">Usuário</label>
-            <p>
-            <input type="text" name="user" required size="20" maxlength="60" placeholder="Coloque seu usuario" autofocus>
-            <p>
-
-            <p>
-            <label for="cod">Código de Verificação</label>
-            <p>
-            <input type="text" name="cod" required size="20" maxlength="6" placeholder="Agora seu código do email">
-            <p>
-
-            <p>
-            <button type="button" class="btn btn-danger">Entrar</button>
-        </form>
+            <div class="container">
+                <blockquote class="blockquote text-center">
+                <h1>Confirmar Cadastro</h1>
+                </blockquote>
+                <div class="form-group">
+                    <form action="confirmar.php" method="POST" autocomplete="on">
+                        <p>
+                        <label for="user">Usuário</label>
+                        <p>
+                        <input type="text" name="user" required size="20" maxlength="60" placeholder="Coloque seu usuario" autofocus>
+                        <p>
+                        <label for="cod">Código de Verificação</label>
+                        <p>
+                        <input type="text" name="cod" required size="20" maxlength="6" placeholder="Agora seu código do email">
+                        <p>
+                        <button type="button" class="btn btn-danger">Entrar</button>
+                    </form>
+                </div>
+            </div>
         </div>
         <!-- Scripts -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
