@@ -1,4 +1,4 @@
-import express from 'express';
+import express from 'Express';
 
 import pointsController from './controllers/pointsController'
 import itemsController from './controllers/itemsController'
